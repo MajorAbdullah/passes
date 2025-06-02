@@ -1,0 +1,26 @@
+# SecurePass Configuration
+APP_NAME = "SecurePass"
+VERSION = "1.0.0"
+AUTHOR = "User"
+
+# Database Configuration
+DATABASE_NAME = "passwords.db"
+BACKUP_EXTENSION = ".spx"
+
+# Security Configuration
+DEFAULT_AUTO_LOCK_MINUTES = 5
+MIN_MASTER_PASSWORD_LENGTH = 8
+ENCRYPTION_ITERATIONS = 100000
+
+# UI Configuration
+DEFAULT_WINDOW_SIZE = "900x700"
+MIN_WINDOW_SIZE = "800x600"
+DEFAULT_THEME = "light"
+
+# Password Generator Defaults
+DEFAULT_PASSWORD_LENGTH = 16
+MIN_PASSWORD_LENGTH = 8
+MAX_PASSWORD_LENGTH = 64
+
+# Activity Log
+MAX_LOG_ENTRIES = 1000
