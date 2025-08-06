@@ -1,3 +1,4 @@
 cryptography==41.0.7
 bcrypt==4.1.2
 pyperclip==1.9.0
+pyinstaller==6.3.0
